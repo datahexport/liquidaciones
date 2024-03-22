@@ -28,7 +28,7 @@
 
                     @livewire('menu-aside',['temporada'=>$temporada->id])
 
-                    @livewire('main-upload', ['temporada' => $temporada,'vista'=>'finanzas'], key($temporada->id))
+                    @livewire('main-upload', ['temporada' => $temporada, 'vista' => 'FLETES'], key($temporada->id))
                         
                 </div>
             @endif
